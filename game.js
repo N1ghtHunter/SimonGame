@@ -62,7 +62,9 @@ function checkAnswer(currentLevel){
     }
   }
   else{
-    wrong();
+    setTimeout(function () {
+      wrong();
+    }, 300);
   }
 }
 function wrong(){
